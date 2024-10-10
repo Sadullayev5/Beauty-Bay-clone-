@@ -1,0 +1,213 @@
+.container{
+    margin: 0 60px
+}
+
+.home-banner{
+    margin-top: 8px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.home-banner img{
+    width: 940px;
+    height: 586px;
+    position: relative;
+}
+
+.banner-message{
+    width: 100%;
+    max-width: 564px;
+    height: 330px;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 0px 76px;
+    position: absolute;
+    right: 50px;
+}
+
+.banner-message p{
+    width: 410px;
+    text-align: center;
+}
+
+.banner-message h2{
+    font-size: 42px;
+}
+
+.banner-message a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 12px 42px;
+    border-radius: 6px;
+}
+
+.categories-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 16px;
+  }
+  
+  .categories-list li {
+    margin: 0px 0px 3px;
+  }
+  
+  .categories-list li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .categories-list li a:hover {
+    text-decoration: underline;
+  }
+
+  .trending-trio{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .trio-card{
+    width: 440px;
+    height: 356px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+  }
+
+  .trio-card img{
+    width: 440px;
+    height: 356px;
+    object-fit: contain;
+  }
+
+  .trio-card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .trio-card-info p{
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .trio-card a{
+    text-align: center;
+    width: 440px;
+    text-decoration: none;
+    color: black;
+    z-index: 2;
+    padding: 12px;
+    font-weight: 600;
+  }
+
+  .tiles{
+    margin-top: 180px;
+    display: flex;
+  }
+
+  .tiles img{
+    width: 696px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .tiles-info{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+    padding: 26px;
+    background-color: #f6f6f6;
+
+  }
+
+  .tiles-info p{
+    text-align: center;
+  }
+
+  .tiles-info a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+
+  .cta-header{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+  }
+
+  .cta-header img {
+    width: 426px;
+    height: 220px;
+    object-fit: contain;
+  }
+
+  .cta-header p{
+    text-align: center;
+  }
+
+  .cta-header a{
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 12px 42px;
+    border-radius: 6px;
+  }
+
+  .cta-tiles{
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .cta-tile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f6f6;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .cta-tile p{
+    width: 280px;
+    text-align: center;
+  }
+
+  .cta-tile img{
+    width: 300px;
+    height: 260px;
+    object-fit: contain;
+  }
+
+  .cta-tile a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+  

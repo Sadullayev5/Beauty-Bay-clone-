@@ -1,0 +1,42 @@
+.edited-wrapper{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.edited-content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.edited-content img{
+
+    width: 140px;
+}
+
+.edited-cards{
+    margin-top: 50px;
+    display: flex;
+    overflow-x: auto;
+    gap: 40px;
+}
+
+.edited-card{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    position: relative;
+    padding: 10px;
+}
+
+.edited-card img{
+    width: 290px;
+    height: 348px;
+    object-fit: contain;
+}
+
+.edited-card h3{
+    color: black;
+}

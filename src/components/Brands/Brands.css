@@ -1,0 +1,46 @@
+.brands{
+    margin-top: 40px;
+}
+
+.brands h2{
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.card-slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.card-slider img{
+    width: 245px;
+    height: 245px;
+    object-fit: contain;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #fff; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    
+    background: black; 
+    
+  }
+
+  
+  * {
+    scrollbar-width: thin; 
+    scrollbar-color: black #fff;
+  }

@@ -1,0 +1,145 @@
+.nav-wrapper{
+    width: 100%;
+}
+
+.nav-top{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+ a{
+    text-decoration: none;
+}
+
+.nav-top span{
+    color: white;
+    font-size: 16px;
+}
+
+.nav-middle{
+    width: 100%;
+    background-color: #e6e6e6;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-middle select{
+    border: none;
+    outline: none;
+    background-color: #e6e6e6;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+.nav-middle span{
+    color: black;
+    font-size: 16px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    padding: 32px 0px;
+    justify-content: space-around;
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    padding: 0px 32px;
+    width: 100%;
+    max-width: 900px;
+    background-color: #fff;
+    border: 1px solid #6666666d;
+  }
+  
+  .search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+  }
+
+  form{
+    width: 100%;
+  }
+  
+  .search-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 40px;
+  }
+  
+  .search-input::placeholder {
+    color: #bbb;
+  }
+  
+  .search-bar svg {
+    fill: #666;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    max-width: 330px;
+    align-items: center;
+  }
+
+  .nav-links img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .nav-links a{
+    display: flex;
+    align-items: center;
+  }
+
+  .header-like-btn{
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .header-like-btn span{
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    right: -4px;
+    color: white;
+    background-color: red;
+    padding: 2px 6px;
+    border-radius: 50%;
+  }
+
+  .header-cart-btn{
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .header-cart-btn span{
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    right: -4px;
+    color: white;
+    background-color: red;
+    padding: 2px 6px;
+    border-radius: 50%;
+  }

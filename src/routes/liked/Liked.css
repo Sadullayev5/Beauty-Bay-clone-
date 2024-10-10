@@ -1,0 +1,84 @@
+.liked-wrapper{
+    margin: 0 80px;
+    margin-bottom: 40px;
+}
+
+.liked-wrapper h2{
+    font-size: 42px;
+    text-align: center;
+
+}
+
+.liked-products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: flex-start;
+
+}
+
+.liked-products-empty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.liked-products-empty h3{
+    font-size: 24px;
+}
+
+.liked-product{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    position: relative;
+    padding: 10px;
+    position: relative;
+}
+
+.liked-product img{
+    width: 280px;
+    height: 348px;
+    object-fit: cover;
+}
+
+.liked-product h3{
+    font-size: 18px;
+    color: black;
+}
+
+.add-to-bag{
+    width: 100%;
+    border: 1px solid black;
+    padding: 8px 20px;
+    background-color: white;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.add-to-bag:hover{
+    background-color: black;
+    color: white;
+}
+
+.remove-like{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    font-size: 26px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 4px 5px;
+    border-radius: 50%;
+}
