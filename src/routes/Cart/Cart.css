@@ -44,6 +44,7 @@
 }
 
 .cart-product-info h3{
+    width: 260px;
     font-size: 20px;
     color: black;
 }
